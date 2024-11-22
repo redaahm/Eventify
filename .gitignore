@@ -1,0 +1,78 @@
+# HELP.md (optional)
+HELP.md
+
+# Build directories
+target/
+build/
+!**/src/main/**/target/
+!**/src/test/**/target/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# Maven wrapper files
+!.mvn/wrapper/maven-wrapper.jar
+
+# STS (Spring Tool Suite)
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Eclipse
+/.metadata/
+*.tmp
+*.bak
+*.swp
+*.orig
+/*.log
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# Visual Studio Code
+.vscode/
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# Sensitive files
+application.properties
+application.yml
+
+# Temporary files
+*.tmp
+*.swp
+*.bak
+*.pid
+*.seed
+*.cover
+
+# Testing
+/test-output/
+*.out
+
+# Generated files
+*.class
+*.war
+*.jar
+
+# Misc
+*.cache
+*.project
