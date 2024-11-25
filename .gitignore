@@ -76,3 +76,7 @@ application.yml
 # Misc
 *.cache
 *.project
+
+#React/node
+/frontend/node_modules/
+
